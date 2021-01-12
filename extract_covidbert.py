@@ -103,7 +103,7 @@ for bert_type in [(AutoModel,    AutoTokenizer,    'digitalepidemiologylab/covid
         print(i)
         if tid in data_dict:
             text = data_dict[tid]
-            # text = preprocess_bert(text)
+#             text = preprocess_bert(text) ## Uncomment this to process text using COVID Twitter-BERT preprocessing
 
             sent_word_catavg, sent_word_sumavg, sent_emb_2_last, sent_emb_last, \
                 cls_out = get_word_sent_embedding(text, model, tokenizer, device)
