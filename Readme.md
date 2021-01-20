@@ -3,7 +3,6 @@
 Main Libraries used: 
 - PyTorch 1.6.0
 - transformers 3.3.1
-- torchvision 0.7.0
 
 Main Files: 
 - Feature Extraction - extract_covidbert.py
