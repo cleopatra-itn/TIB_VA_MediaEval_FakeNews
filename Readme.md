@@ -10,6 +10,8 @@ Main Files:
 
 Extract the tweet dataset in a folder named dataset as instructed on challenge github page.
 
+The paper is available here: https://arxiv.org/pdf/2101.03529.pdf
+
 If you find this useful, please cite:
 ```
 @misc{cheema2021tibs,
